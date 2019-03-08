@@ -1,0 +1,104 @@
+#Firstsection{
+    background: white;
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: auto;
+    text-align: center;
+    border: solid 4px navy;
+}
+
+#title{
+    background:lightsteelblue;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#image{
+    background: lightblue;
+    padding: 50px;
+    text-align: center;
+}
+
+.Menu{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:20px;
+}
+
+#links{
+    background: lightblue;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.Space{
+    background: white;
+    height: 1em;
+}
+
+#SecondSection{
+    background: white;
+    padding: 50px;
+    margin-top: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: auto;
+    text-align: center;
+    border: solid 4px navy;
+}
+
+.Grid > div{
+    background: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.Grid > div:nth-child(odd){
+    background: lightskyblue;
+}
+
+.Grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#LastSection{
+    background: white;
+    padding: 50px;
+    margin-top: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+    border: solid 4px navy;
+}
+
+@media screen and (max-width:978px){
+    .Menu{
+        width: 100px;
+    }
+
+    #image{
+        width: 1fr;
+    }
+
+    #links{
+        width: 2fr;
+    }
+}
+     
